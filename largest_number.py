@@ -1,3 +1,6 @@
+from typing import List
+
+
 class Solution:
     def largestNumber(self, numbers: List[int]) -> str:
         number_to_string = [str(number) for number in numbers]
